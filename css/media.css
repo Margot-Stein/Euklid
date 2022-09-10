@@ -1,0 +1,585 @@
+@media (max-width: 1440px) {
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .header__logo {
+    margin-right: 120px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .about__content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .about__left,
+  .about__right {
+    width: 100%;
+  }
+
+  .about__left {
+    margin-bottom: 32px;
+  }
+
+  .card {
+    padding: 65px 65px 65px 300px;
+  }
+
+  .consult__descr {
+    padding: 0;
+  }
+
+  .faq__item-heading {
+    font-size: 20px;
+    width: 83%;
+  }
+
+  .footer__center {
+    margin-right: 0px;
+    width: 55%;
+  }
+
+  .footer__right {
+    width: 100%;
+  }
+
+  .form__input {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .header {
+    margin-bottom: 40px;
+    padding: 26px 0;
+  }
+
+  .header__nav {
+    --header-height: 100px;
+    padding: 100px 50px 230px;
+    position: fixed;
+    left: 0;
+    top: var(--header-height);
+    z-index: 1000;
+    overflow-y: auto;
+    height: calc(100vh - var(--header-height));
+    min-width: 420px;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .header__nav--visible {
+    transform: none;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+
+  .nav__link {
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header__logo {
+    margin: 0;
+    height: 48px;
+    width: 150px;
+  }
+
+  .hero__wrapper {
+    margin-bottom: 38px;
+    padding: 160px 77px 30px;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .hero__descr {
+    margin-bottom: 60px;
+    width: 90%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__content {
+    margin-bottom: 115px;
+  }
+
+  .about__descr {
+    margin-bottom: 58px;
+  }
+
+  .about__left {
+    min-height: 640px;
+  }
+
+  .card {
+    padding: 65px 150px 65px 317px;
+  }
+
+  .about__consult,
+  .about__aspiration {
+    background-position: left 75px center;
+  }
+
+  .about__content {
+    margin-bottom: 80px;
+  }
+
+  .consult__content {
+    margin-bottom: 25px;
+  }
+
+  .stages__wrapper {
+    margin-bottom: 85px;
+  }
+
+  .faq__wrapper {
+    margin-bottom: 80px;
+  }
+
+  .footer__right {
+    display: none;
+  }
+
+  .footer__left {
+    width: 30%;
+  }
+
+  .footer__center {
+    width: 58%;
+  }
+
+  .form__btn {
+    padding: 19px 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__wrapper {
+    padding: 160px 42px 30px;
+    border-radius: 24px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .hero__descr {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .planning__descr {
+    margin-right: 46px;
+  }
+
+  .card {
+    padding: 65px 50px 65px 270px;
+  }
+
+  .about__consult,
+  .about__aspiration {
+    background-position: left 40px center;
+  }
+
+  .stages__list {
+    justify-content: space-between;
+  }
+
+  .stages__wrapper * {
+    width: 100%;
+  }
+  .stages__wrapper:before {
+    width: 100%;
+    min-height: 284px;
+    bottom: auto;
+  }
+  .stages__wrapper {
+    padding-top: 329px;
+  }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer__center {
+    margin-bottom: 50px;
+    width: 81%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 11px 0;
+    min-height: 69px;
+  }
+
+  .header__nav {
+    --header-height: 70px;
+  }
+
+  .about__planning {
+    padding: 30px 40px;
+  }
+
+  .about__consult,
+  .about__aspiration {
+    background-size: 115px 100px;
+  }
+
+  .card {
+    padding: 37px 40px 35px 170px;
+    min-height: 0px;
+  }
+
+  .stages__wrapper {
+    margin-bottom: 50px;
+  }
+
+  .stages__title {
+    margin-bottom: 46px;
+  }
+
+  .consult__descr {
+    display: inline;
+  }
+
+  .stages__buttons-bottom {
+    width: 50%;
+  }
+
+  .faq__item-heading {
+    width: 86%;
+  }
+
+  .faq__wrapper {
+    margin-bottom: 111px;
+  }
+
+  .form__btn {
+    padding: 19px 38px;
+  }
+
+  .footer__logo {
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    border-radius: 16px;
+    padding: 17px 0;
+    margin-bottom: 30px;
+  }
+
+  .header__logo {
+    margin: 0;
+    height: 35px;
+    width: 110px;
+  }
+
+  .header__nav {
+    --header-height: 69px;
+    min-width: 320px;
+  }
+
+  .search__form {
+    min-width: 320px;
+  }
+
+  .search__input {
+    margin-right: 0;
+    padding: 9px 0px;
+    min-width: 222px;
+    max-width: 222px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hero__wrapper {
+    margin-bottom: 60px;
+    padding: 60px 21px 16px;
+    border-radius: 16px;
+    min-height: 290px;
+  }
+
+  .hero__content {
+    margin-bottom: 33px;
+    text-align: center;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__descr,
+  .hero__btn {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hero__descr {
+    margin-bottom: 33px;
+  }
+
+  .hero__btn {
+    padding: 13px 28px;
+    border-radius: 8px;
+  }
+
+  .hero__point {
+    width: 10px;
+    height: 10px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about__content {
+    margin-bottom: 60px;
+  }
+
+  .about__descr {
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__left {
+    position: relative;
+    min-height: 400px;
+    background-image: none;
+    border-radius: 0;
+  }
+
+  .about__left::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    top: 0;
+    left: 0;
+    background-image: url(../img/worker.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .about__planning {
+    padding: 0;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  .planning__descr {
+    margin-right: 25px;
+    padding: 0 0 12px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000;
+  }
+
+  .planning__btn {
+    margin: 0;
+    padding: 10px 37px;
+    width: 56%;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000;
+    border-radius: 8px;
+  }
+
+  .about__consult,
+  .about__aspiration {
+    padding: 61px 0 0;
+    background-size: 64px 49px;
+    background-position: top left;
+    border: none;
+  }
+
+  .about__consult {
+    background-image: url('../img/320/consult-1.svg');
+  }
+
+  .about__aspiration {
+    background-image: url('../img/320/consult-2.svg');
+  }
+
+  .card__title {
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .card__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .stages__title {
+    margin-bottom: 20px;
+  }
+
+  .stages__list {
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .stages__item:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .stages__btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .stages__wrapper::before {
+    background-image: url('../img/320/we-work.png');
+    background-size: auto auto;
+    bottom: auto;
+  }
+
+  .consult__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .consult__descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .stages__buttons-bottom {
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consult__more-btn {
+    margin-right: 10px;
+    padding: 12px 44px;
+    border-radius: 8px;
+  }
+
+  .consult__contract-btn {
+    padding: 12px 32px;
+    border-radius: 8px;
+  }
+
+  .faq__title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .faq__item-heading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .faq__item-circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .faq__wrapper {
+    margin-bottom: 60px;
+  }
+
+  .form__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form__btn {
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .footer__center {
+    margin-bottom: 50px;
+    width: 100%;
+    border-bottom: 1px solid var(--dark-gray);
+  }
+
+  .form__checkbox {
+    margin-bottom: 16px;
+  }
+
+  .form__input {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .footer__left {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer__logo {
+    height: 42px;
+    width: 131px;
+  }
+
+  .socials__icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .checkbox__box {
+    line-height: 1;
+  }
+}
